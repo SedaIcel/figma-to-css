@@ -1,1 +1,1 @@
-# figma-to-css-2
+# This is a repository about Figma Design App Landing Page Cont'd
