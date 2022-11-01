@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
     
 }
 
@@ -21,7 +20,7 @@
     height: 72px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 165px;
     
     
 }
@@ -38,7 +37,7 @@
 .nav-link-text{
     text-decoration: none;  
     font-family: 'Inter', sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;  
     color: #18191F;
@@ -54,7 +53,7 @@
 .hero-section{
     display: flex;
     flex-direction: column;    
-    padding: 0 20px;
+    padding: 0 165px;
     margin: 100px auto auto;
     
 }
@@ -74,7 +73,7 @@
 .hero-content-title{
     text-decoration: none;  
     font-family: 'Inter', sans-serif;
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 72px;
     line-height: 98px;  
     color: #18191F; 
@@ -87,7 +86,7 @@
     height: 48px;
     background:#8C30F5; 
     font-family: 'Inter', sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px; 
     color: #FFFFFF;
@@ -102,7 +101,9 @@
     gap: 65px;
     align-items: center;
     justify-content: center;
-    height: 140px;
+    height: 110px;    
+    border-bottom: 1px solid rgba(192, 204, 218, 0.1);
+    border-top: 1px solid rgba(192, 204, 218, 0.1);
 }
 
 .feature-section{
@@ -122,7 +123,7 @@
 
 .feature-title-text{
     font-family: 'Inter', sans-serif;
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 48px;
     line-height: 64px;  
     color: #18191F; 
@@ -132,7 +133,7 @@
 
 .feature-title-content{
     font-family: 'Inter', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;  
     color: #18191F;
@@ -141,7 +142,9 @@
 
 }
 
-
+.feature-list{
+    width: 350px;
+}
 .feature-row-one{
     display: flex;
     flex-direction: row;
@@ -165,18 +168,20 @@
 
 .feature-content-title{
     font-family: 'Inter', sans-serif;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 24px;
     line-height: 32px;  
     color: #18191F;   
+    margin-top: 25px;
 }
 
 .feature-content-text{
     font-family: 'Inter', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;  
-    color: #18191F;   
+    color: #18191F; 
+    margin-top: 8px;  
 }
 
 .testimonial-section{
@@ -204,7 +209,7 @@
 
 .testimonial-title{
     font-family: 'Inter', sans-serif;
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 48px;
     line-height: 64px;  
     color: #18191F;  
@@ -213,7 +218,7 @@
 
 .testimonial-title-content{
     font-family: 'Inter', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;  
     color: #18191F; 
@@ -235,7 +240,7 @@
 
 .testimonial-content{
     font-family: 'Inter', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;  
     color: #18191F; 
@@ -245,7 +250,7 @@
 }
 .testimonial-writer{
     font-family: 'Inter', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 18px;
     line-height: 28px;  
     color: #18191F; 
@@ -256,7 +261,7 @@
 }
 .testimonial-writerposition{
     font-family: 'Inter', sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 14px;
     line-height: 24px;  
     color: #969BAB;
@@ -267,7 +272,7 @@
     width:445px;
     height:340px;
     margin-top: 170px;
-    margin-left: 30px;
+    margin-left: 735px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 8px;
