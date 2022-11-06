@@ -310,8 +310,7 @@
 .stat-page{
     display: flex;
     max-width: 1440px;
-    margin: auto;
-    margin-top: 82px;
+    margin: 82px auto;
     gap: 30px;
 }
 
@@ -378,4 +377,44 @@
     line-height: 26px;  
     color: #18191F;    
 }
+.feature2{
+    display: flex;
+    max-width: 1440px;
+    gap: 80px;
+    margin: 64px auto;
 
+}
+
+.phone-mockup{
+    margin-left: 165px;
+}
+.feature2-head{
+    align-items: center;
+}
+
+.feature2-header{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;  
+    color: #18191F;
+    margin-top: 120px;   
+}
+
+.feature2-content{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;  
+    color: #18191F;
+    margin-top: 32px;       
+}
+
+.feature-button{
+    margin-top: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #8C30F5;   
+}
