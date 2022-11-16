@@ -5,40 +5,39 @@
     
 }
 
-.hero-page{
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 1440px;
-    margin: auto;
-    
-}
-
 .nav-bars{    
     display: flex;
-    margin: auto;
-    height: 72px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 165px;    
+    width: 80%;
+    margin: auto;
+    padding: 0px 20px;
+
     
 }
 
 .nav-list{
     list-style: none;
 }
+
 .left-nav{
     display: flex;
     gap: 32px;
-    align-items: center;     
+    align-items: center;  
+    padding: 22px 0px;   
     
+}
+
+.drop-down-menu{
+    display: flex;
+    gap: 8px;  
+    align-items: center;  
 }
 .nav-link-text{
     text-decoration: none;  
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 20px;  
     color: #18191F;
 }
 
