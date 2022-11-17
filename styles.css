@@ -1,8 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url("./styles/reset.css");
+@import url("./styles/nav.css");
 
 .hero-page {
   background-image: url(images/background.png);
