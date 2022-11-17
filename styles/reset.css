@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.app {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: auto;
+}
