@@ -1,0 +1,9 @@
+.hero-section-logos {
+  display: flex;
+  gap: 65px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(192, 204, 218, 0.1);
+  border-top: 1px solid rgba(192, 204, 218, 0.1);
+  margin-bottom: 60px;
+}
