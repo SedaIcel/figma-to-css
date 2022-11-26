@@ -1,9 +1,24 @@
-.hero-section-logos {
+.logos-section {
   display: flex;
+  width: 80%;
+  flex-direction: column;
+  margin: 15px auto;
+}
+
+.divider {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+}
+
+.logos {
   gap: 65px;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid rgba(192, 204, 218, 0.1);
-  border-top: 1px solid rgba(192, 204, 218, 0.1);
-  margin-bottom: 60px;
+  display: flex;
+  padding: 40px 0px;
 }
