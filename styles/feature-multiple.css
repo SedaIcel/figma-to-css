@@ -1,6 +1,6 @@
 .feature-multiple {
-  margin: auto;
   margin: 65px 0;
+  font-family: "Inter", sans-serif;
 }
 
 .feature-multiple-heading {
@@ -12,7 +12,6 @@
 }
 
 .feature-multiple-title {
-  font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 48px;
   line-height: 64px;
@@ -21,7 +20,6 @@
 }
 
 .multiple-title-description {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -30,32 +28,21 @@
 }
 
 .feature-multiple-list {
-  margin: 50px auto 65px;
-  display: flex;
-  flex-direction: column;
-  gap: 65px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
 }
 
-.multiple-row-one {
+.multiple-row {
+  flex-wrap: wrap;
   display: flex;
-  align-items: center;
   list-style: none;
-  text-align: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-.multiple-row-two {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  text-align: center;
-  justify-content: center;
-  gap: 30px;
+  row-gap: 65px;
+  column-gap: 30px;
 }
 
 .multiple-list-title {
-  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -64,7 +51,6 @@
 }
 
 .multiple-list-text {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
