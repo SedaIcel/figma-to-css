@@ -1,0 +1,117 @@
+.testimonial-section {
+  background-color: #d5fafc;
+  max-width: 1440px;
+  display: flex;
+}
+
+.testimonial-part1 {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.testimonial-part2 {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote-logo {
+  margin-left: 165px;
+  margin-top: 65px;
+  position: absolute;
+  opacity: 0.3;
+}
+.testimonial-head {
+  margin-right: 35px;
+  padding-top: 120px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.testimonial-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191f;
+}
+
+.testimonial-title-content {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  padding-top: 8px;
+}
+
+.testimonial-logo {
+  margin: 35px;
+}
+
+.quote-logo2 {
+  margin-left: 32px;
+  margin-top: 104px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.testimonial-content {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  padding-left: 64px;
+}
+.testimonial-writer {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #18191f;
+  padding-top: 24px;
+  padding-left: 64px;
+}
+.testimonial-writerposition {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #969bab;
+  padding-left: 64px;
+  padding-bottom: 35px;
+}
+
+.testimonial1 {
+  max-width: 350px;
+  margin-top: 25px;
+  margin-left: auto;
+  padding-right: 35px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.testimonial2 {
+  max-width: 445px;
+  margin-top: 170px;
+  margin-left: 30px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+
+.testimonial3 {
+  max-width: 350px;
+  margin-top: 32px;
+  margin-left: 30px;
+  margin-bottom: 80px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
