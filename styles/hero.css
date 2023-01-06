@@ -1,3 +1,8 @@
+.hero-page {
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
 .hero-section {
   display: flex;
   flex-direction: column;
