@@ -1,0 +1,58 @@
+.cta-page {
+  display: flex;
+  background: #2ec5ce;
+  gap: 75px;
+  justify-content: center;
+}
+
+.cta-details {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.cta-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191f;
+}
+
+.cta-content {
+  word-break: break-word;
+  width: 540px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+}
+
+.cta-footer {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.cta-content2 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #18191f;
+}
+
+.phone-images {
+  gap: 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+.phone-images .cta-phone1 {
+  max-inline-size: 100%;
+  height: fit-content;
+}
+
+.phone-images .cta-phone2 {
+  max-inline-size: 100%;
+  height: fit-content;
+  padding-top: 90px;
+}
