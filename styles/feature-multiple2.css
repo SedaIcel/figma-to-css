@@ -29,13 +29,14 @@
 
 .feature-button {
   font-size: 16px;
-  line-height: 24px;
   color: #8c30f5;
   background-color: transparent;
   border: none;
   gap: 10px;
   align-items: center;
   display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
 
 .phone-mockup {
