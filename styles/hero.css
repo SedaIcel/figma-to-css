@@ -1,8 +1,23 @@
 .hero-page {
+  position: relative;
+}
+
+.hero-page::after {
+  content: " ";
   background-image: url("/images/background.png");
   background-repeat: no-repeat;
   background-position: top;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: -15vw;
+  right: -15vw;
+  height: 110%;
+  max-width: 99vw;
+  margin: 0 auto;
+  z-index: -1;
 }
+
 .hero-section {
   display: flex;
   flex-direction: column;
