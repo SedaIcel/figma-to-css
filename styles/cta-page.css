@@ -1,9 +1,22 @@
 .cta-page {
   display: flex;
-  background: #2ec5ce;
   gap: 75px;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.cta-page::before {
+  content: "";
+  background-color: #2ec5ce;
+  position: absolute;
+  top: 0;
+  left: -15vw;
+  right: -15vw;
+  margin: 0 auto;
+  max-width: 99vw;
+  z-index: -1;
+  height: 100%;
 }
 
 .cta-details {
