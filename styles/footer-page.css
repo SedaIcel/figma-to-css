@@ -1,9 +1,22 @@
 .footer {
-  background: #0b0d17;
   display: flex;
   justify-content: space-around;
   padding-top: 60px;
   padding-bottom: 60px;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  background-color: #0b0d17;
+  position: absolute;
+  top: 0;
+  left: -15vw;
+  right: -15vw;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 99vw;
+  z-index: -1;
 }
 
 .footer-links1 {
